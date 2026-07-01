@@ -9,12 +9,12 @@
 }
 
 :root {
-  --bg: #fbf3db;
-  --ink: #1A1816;
+  --bg: #f5f0e8;
+  --bg-alt: #EAE6DC --ink: #4a4036;
   --muted: #8A857F;
-  --panel: #F3F0EB;
+  --panel: #ede8df;
   --line: #E5E0D8;
-  --sage: #4A7C59;
+  --sage: #3f6b4d;
   --sage-dim: rgba(74, 124, 89, 0.08);
   --sideMargin: clamp(1.6rem, 4vw, 6rem);
   --headerH: 0;

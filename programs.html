@@ -15,20 +15,28 @@
 <body data-page="programs.html">
 
 <header class="header" role="banner">
-  <a href="index.html" class="header__logo" aria-label="NSWF Home">
-    <div class="header__logo-icon" aria-hidden="true">NS</div>
-    <span>Nisarg Srishti</span>
-  </a>
-  <button class="header__menu-btn" id="menuToggle" aria-expanded="false" aria-label="Toggle menu">Menu</button>
-  <nav class="header__nav" id="mainNav" role="navigation">
-    <a href="about.html">About</a>
-    <a href="programs.html">Programs</a>
-    <a href="impact.html">Impact</a>
-    <a href="media.html">Media</a>
-    <a href="team.html">Team</a>
-    <a href="contact.html">Contact</a>
-    <a href="https://www.nisargsrishti.org/donate" class="header__donate magnetic">Donate</a>
-  </nav>
+  <div class="header__inner">
+    <a href="index.html" class="header__logo" aria-label="NSWF Home">
+      <div class="header__logo-icon" aria-hidden="true">NS</div>
+      <span>Nisarg Srishti</span>
+    </a>
+    <button class="header__menu-btn" id="menuToggle" aria-expanded="false" aria-label="Toggle menu"><span></span></button>
+    <nav class="header__nav" id="mainNav" role="navigation">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="events.html">Events</a>
+      <a href="impact.html">Impact</a>
+      <a href="media.html">Media</a>
+      <a href="team.html">Team</a>
+      <a href="ambassadors.html">Ambassadors</a>
+      <a href="advisors.html">Advisors</a>
+      <a href="policy.html">Policies</a>
+      <a href="membership.html">Membership</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://www.nisargsrishti.org/donate" class="header__donate">Donate</a>
+    </nav>
+  </div>
 </header>
 
 <main>
@@ -37,35 +45,41 @@
       <img src="https://static.wixstatic.com/media/8444ab_09b4c6100b6847d7807b357d1c6bc708~mv2.jpg" alt="">
     </div>
     <div class="container" style="z-index:1;">
-      <div class="page-header__label">Our programs</div>
+      <p class="page-header__label">Our programs</p>
       <h1 class="page-header__title">Ecominds Initiative</h1>
       <p class="page-header__desc">A multi-faceted program series addressing critical environmental and social challenges through education, health, and empowerment.</p>
     </div>
   </section>
 
-  <section class="section pin-section">
+  <section class="section reveal">
     <div class="container">
       <div class="section__header">
-        <h2 class="section__title">Three pillars of<br>the initiative</h2>
+        <h2 class="section__title">Four pillars of<br>the initiative</h2>
       </div>
-      <div class="card-grid" style="margin-top:4rem;">
+      <div class="card-grid">
         <div class="card">
-          <div class="card__num">01</div>
+          <p class="card__num">01</p>
           <h3 class="card__title">Ecominds@Education</h3>
           <p class="card__desc">School and college workshops integrating environmental awareness into the curriculum. Over 27 sessions conducted across India.</p>
-          <div class="card__meta">27+ sessions nationwide</div>
+          <p class="card__meta">27+ sessions nationwide</p>
         </div>
         <div class="card">
-          <div class="card__num">02</div>
+          <p class="card__num">02</p>
           <h3 class="card__title">Ecominds@Health</h3>
           <p class="card__desc">Highlighting noise pollution's impact on physical and mental health, with guidance on protective measures.</p>
-          <div class="card__meta">Health awareness</div>
+          <p class="card__meta">Health awareness</p>
         </div>
         <div class="card">
-          <div class="card__num">03</div>
+          <p class="card__num">03</p>
+          <h3 class="card__title">Ecominds@Environment</h3>
+          <p class="card__desc">On-ground decibel monitoring using calibrated sound level meters. Real-time data collection during festivals, traffic hours, and public events across Pune to support research and policy advocacy.</p>
+          <p class="card__meta">Real-time dB monitoring</p>
+        </div>
+        <div class="card">
+          <p class="card__num">04</p>
           <h3 class="card__title">Ecominds@Empowerment</h3>
           <p class="card__desc">Training programs equipping women with knowledge and skills for environmental leadership in their communities.</p>
-          <div class="card__meta">Women in leadership</div>
+          <p class="card__meta">Women in leadership</p>
         </div>
       </div>
     </div>
@@ -74,7 +88,7 @@
   <section class="section reveal" style="border-top:1px solid var(--line);">
     <div class="container">
       <div class="section__header">
-        <div class="section__label">Key activities</div>
+        <p class="section__label">Key activities</p>
         <h2 class="section__title">How we create impact</h2>
       </div>
       <div class="card-grid card-grid--2">
@@ -84,7 +98,8 @@
         </div>
         <div class="card">
           <h3 class="card__title">Real-Time Noise Monitoring</h3>
-          <p class="card__desc">Using sound level meters to collect decibel data during festivals and traffic hours. Collaborated with GIPE during Ganesh Utsav 2025.</p>
+          <p class="card__desc">Using calibrated sound level meters (dB Trek &amp; Type 2 SLMs) to collect real-time decibel data at strategic locations across Pune. Monitoring is conducted during Ganesh Utsav, Diwali, traffic hours, railway stations, hospitals, schools, residential zones, and public events. Data is timestamped, geotagged, and logged for trend analysis, enabling evidence-based advocacy and community awareness. Collaborated with GIPE during Ganesh Utsav 2025 — data contributed to a research paper on festival noise pollution.</p>
+          <p class="card__meta">Deployed at 15+ locations across Pune</p>
         </div>
         <div class="card">
           <h3 class="card__title">E-Waste Management Drives</h3>
@@ -94,6 +109,45 @@
           <h3 class="card__title">Water Conservation</h3>
           <p class="card__desc">Evaluation of rainwater harvesting systems at educational institutions to promote sustainable water management.</p>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reveal" style="border-top:1px solid var(--line);">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__label">dB monitoring program</p>
+        <h2 class="section__title">Ecominds@Environment<br>in Detail</h2>
+      </div>
+      <div class="content-wrap" style="margin-top:4rem;">
+        <p>The Ecominds@Environment pillar focuses on collecting real-world decibel data to understand noise pollution patterns across Pune. Using calibrated sound level meters compliant with IS 9779 / IEC 61672 standards, NSWF deploys monitoring teams at strategic locations during peak traffic hours, festivals, and public events.</p>
+        <h3>Equipment &amp; Methodology</h3>
+        <p>NSWF uses Class 2 Sound Level Meters (dB Trek and equivalent models) with the following specifications:</p>
+        <ul>
+          <li>Measurement range: 30–130 dB(A)</li>
+          <li>Frequency weighting: A, C, and Z</li>
+          <li>Time weighting: Fast (125 ms), Slow (1 s), and Impulse</li>
+          <li>Data logging with real-time timestamps and GPS geotags</li>
+          <li>Calibration verified before and after each deployment</li>
+        </ul>
+        <h3>Monitoring Locations</h3>
+        <p>Noise levels are measured at 15+ key locations across Pune Metropolitan Region, categorized into:</p>
+        <ul>
+          <li><strong>Traffic Junctions:</strong> Shivajinagar, Swargate, Hadapsar, Aundh, Katraj</li>
+          <li><strong>Festival Hotspots:</strong> Ganesh Utsav mandals, Diwali market areas, procession routes</li>
+          <li><strong>Silent Zones:</strong> Hospital precincts, school zones, residential colonies</li>
+          <li><strong>Public Spaces:</strong> Railway stations, bus stands, market areas, religious sites</li>
+        </ul>
+        <h3>Data Applications</h3>
+        <p>All collected data is archived and analyzed to:</p>
+        <ul>
+          <li>Generate noise maps of Pune highlighting pollution hotspots</li>
+          <li>Support academic research (collaboration with GIPE for Ganesh Utsav 2025 study)</li>
+          <li>Inform advocacy campaigns and policy recommendations to municipal authorities</li>
+          <li>Educate communities with location-specific evidence during awareness sessions</li>
+          <li>Track year-over-year trends to measure impact of awareness initiatives</li>
+        </ul>
+        <p style="margin-top:2rem;"><a href="impact.html" class="btn btn-outline">See our impact data <span class="btn-arrow" aria-hidden="true">&rarr;</span></a></p>
       </div>
     </div>
   </section>
@@ -114,9 +168,15 @@
         <ul class="footer__links">
           <li><a href="about.html">About</a></li>
           <li><a href="programs.html">Programs</a></li>
+          <li><a href="events.html">Events</a></li>
           <li><a href="impact.html">Impact</a></li>
           <li><a href="media.html">Media</a></li>
           <li><a href="team.html">Team</a></li>
+          <li><a href="ambassadors.html">Ambassadors</a></li>
+          <li><a href="advisors.html">Advisors</a></li>
+          <li><a href="policy.html">Policies</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -146,12 +206,10 @@
 </footer>
 
 <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">&uarr;</button>
-
 <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer">
   <button class="lightbox__close" aria-label="Close">&times;</button>
   <img src="" alt="">
 </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="js/main.js"></script>

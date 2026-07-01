@@ -12,20 +12,28 @@
 <body data-page="404.html">
 
 <header class="header" role="banner">
-  <a href="index.html" class="header__logo" aria-label="NSWF Home">
-    <div class="header__logo-icon" aria-hidden="true">NS</div>
-    <span>Nisarg Srishti</span>
-  </a>
-  <button class="header__menu-btn" id="menuToggle" aria-expanded="false" aria-label="Toggle menu">Menu</button>
-  <nav class="header__nav" id="mainNav" role="navigation">
-    <a href="about.html">About</a>
-    <a href="programs.html">Programs</a>
-    <a href="impact.html">Impact</a>
-    <a href="media.html">Media</a>
-    <a href="team.html">Team</a>
-    <a href="contact.html">Contact</a>
-    <a href="https://www.nisargsrishti.org/donate" class="header__donate">Donate</a>
-  </nav>
+  <div class="header__inner">
+    <a href="index.html" class="header__logo" aria-label="NSWF Home">
+      <div class="header__logo-icon" aria-hidden="true">NS</div>
+      <span>Nisarg Srishti</span>
+    </a>
+    <button class="header__menu-btn" id="menuToggle" aria-expanded="false" aria-label="Toggle menu"><span></span></button>
+    <nav class="header__nav" id="mainNav" role="navigation">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="events.html">Events</a>
+      <a href="impact.html">Impact</a>
+      <a href="media.html">Media</a>
+      <a href="team.html">Team</a>
+      <a href="ambassadors.html">Ambassadors</a>
+      <a href="advisors.html">Advisors</a>
+      <a href="policy.html">Policies</a>
+      <a href="membership.html">Membership</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://www.nisargsrishti.org/donate" class="header__donate">Donate</a>
+    </nav>
+  </div>
 </header>
 
 <main>
@@ -33,7 +41,7 @@
     <div class="page-404__code">404</div>
     <h1 class="page-404__title">Page not found</h1>
     <p class="page-404__desc">The page you are looking for does not exist or has been moved.</p>
-    <a href="index.html" class="btn btn-primary magnetic">Back to home <span aria-hidden="true">&rarr;</span></a>
+    <a href="index.html" class="btn btn-primary">Back to home <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
   </div>
 </main>
 
@@ -52,9 +60,15 @@
         <ul class="footer__links">
           <li><a href="about.html">About</a></li>
           <li><a href="programs.html">Programs</a></li>
+          <li><a href="events.html">Events</a></li>
           <li><a href="impact.html">Impact</a></li>
           <li><a href="media.html">Media</a></li>
           <li><a href="team.html">Team</a></li>
+          <li><a href="ambassadors.html">Ambassadors</a></li>
+          <li><a href="advisors.html">Advisors</a></li>
+          <li><a href="policy.html">Policies</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -84,12 +98,10 @@
 </footer>
 
 <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">&uarr;</button>
-
 <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer">
   <button class="lightbox__close" aria-label="Close">&times;</button>
   <img src="" alt="">
 </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="js/main.js"></script>

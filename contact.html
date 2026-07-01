@@ -15,20 +15,28 @@
 <body data-page="contact.html">
 
 <header class="header" role="banner">
-  <a href="index.html" class="header__logo" aria-label="NSWF Home">
-    <div class="header__logo-icon" aria-hidden="true">NS</div>
-    <span>Nisarg Srishti</span>
-  </a>
-  <button class="header__menu-btn" id="menuToggle" aria-expanded="false" aria-label="Toggle menu">Menu</button>
-  <nav class="header__nav" id="mainNav" role="navigation">
-    <a href="about.html">About</a>
-    <a href="programs.html">Programs</a>
-    <a href="impact.html">Impact</a>
-    <a href="media.html">Media</a>
-    <a href="team.html">Team</a>
-    <a href="contact.html">Contact</a>
-    <a href="https://www.nisargsrishti.org/donate" class="header__donate magnetic">Donate</a>
-  </nav>
+  <div class="header__inner">
+    <a href="index.html" class="header__logo" aria-label="NSWF Home">
+      <div class="header__logo-icon" aria-hidden="true">NS</div>
+      <span>Nisarg Srishti</span>
+    </a>
+    <button class="header__menu-btn" id="menuToggle" aria-expanded="false" aria-label="Toggle menu"><span></span></button>
+    <nav class="header__nav" id="mainNav" role="navigation">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="events.html">Events</a>
+      <a href="impact.html">Impact</a>
+      <a href="media.html">Media</a>
+      <a href="team.html">Team</a>
+      <a href="ambassadors.html">Ambassadors</a>
+      <a href="advisors.html">Advisors</a>
+      <a href="policy.html">Policies</a>
+      <a href="membership.html">Membership</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://www.nisargsrishti.org/donate" class="header__donate">Donate</a>
+    </nav>
+  </div>
 </header>
 
 <main>
@@ -37,20 +45,20 @@
       <img src="https://picsum.photos/seed/nswf-contact/1920/1080" alt="">
     </div>
     <div class="container" style="z-index:1;">
-      <div class="page-header__label">Get in touch</div>
+      <p class="page-header__label">Get in touch</p>
       <h1 class="page-header__title">Connect With Us</h1>
       <p class="page-header__desc">Have questions, ideas, or want to collaborate? We'd love to hear from you.</p>
     </div>
   </section>
 
-  <section class="section pin-section">
+  <section class="section reveal">
     <div class="container">
       <div class="contact-grid">
         <div>
           <div class="section__header" style="margin-bottom:3rem;">
             <h2 class="section__title" style="font-size:clamp(2.4rem,3.6vw,4rem);">Send us a message</h2>
           </div>
-          <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+          <form class="contact-form" action="https://formspree.io/f/xblreodd" method="POST">
             <div class="contact-form__group">
               <label for="name">Full Name</label>
               <input type="text" id="name" name="name" required placeholder="Your name">
@@ -68,7 +76,7 @@
               <textarea id="message" name="message" rows="4" required placeholder="How can we help?"></textarea>
             </div>
             <div class="contact-form__feedback"></div>
-            <button type="submit" class="btn btn-primary magnetic" style="width:100%;justify-content:center;">Send message <span aria-hidden="true">&rarr;</span></button>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send message <span class="btn-arrow" aria-hidden="true">&rarr;</span></button>
           </form>
         </div>
         <div class="contact-info">
@@ -77,20 +85,20 @@
           </div>
           <div>
             <div class="contact-info__item">
-              <div class="contact-info__label">Email</div>
-              <div class="contact-info__value"><a href="mailto:nisarg.srishti@gmail.com">nisarg.srishti@gmail.com</a></div>
+              <p class="contact-info__label">Email</p>
+              <p class="contact-info__value"><a href="mailto:nisarg.srishti@gmail.com">nisarg.srishti@gmail.com</a></p>
             </div>
             <div class="contact-info__item">
-              <div class="contact-info__label">Website</div>
-              <div class="contact-info__value"><a href="https://www.nisargsrishti.org" target="_blank" rel="noopener noreferrer">www.nisargsrishti.org</a></div>
+              <p class="contact-info__label">Website</p>
+              <p class="contact-info__value"><a href="https://www.nisargsrishti.org" target="_blank" rel="noopener noreferrer">www.nisargsrishti.org</a></p>
             </div>
             <div class="contact-info__item">
-              <div class="contact-info__label">Location</div>
-              <div class="contact-info__value">Pune, Maharashtra, India</div>
+              <p class="contact-info__label">Location</p>
+              <p class="contact-info__value">Pune, Maharashtra, India</p>
             </div>
           </div>
           <div style="margin-top:5rem;">
-            <div class="contact-info__label" style="margin-bottom:2rem;">Follow us</div>
+            <p class="contact-info__label" style="margin-bottom:2rem;">Follow us</p>
             <div class="card-grid card-grid--2" style="border:0;">
               <a href="https://www.youtube.com/@NisargSrishti" target="_blank" rel="noopener noreferrer" class="card" style="min-height:8rem;padding:1.6rem;align-items:center;justify-content:center;flex-direction:row;gap:1rem;">
                 <span style="font-size:1.2rem;letter-spacing:.06em;text-transform:uppercase;">YouTube</span>
@@ -131,9 +139,15 @@
         <ul class="footer__links">
           <li><a href="about.html">About</a></li>
           <li><a href="programs.html">Programs</a></li>
+          <li><a href="events.html">Events</a></li>
           <li><a href="impact.html">Impact</a></li>
           <li><a href="media.html">Media</a></li>
           <li><a href="team.html">Team</a></li>
+          <li><a href="ambassadors.html">Ambassadors</a></li>
+          <li><a href="advisors.html">Advisors</a></li>
+          <li><a href="policy.html">Policies</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
@@ -163,12 +177,10 @@
 </footer>
 
 <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">&uarr;</button>
-
 <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer">
   <button class="lightbox__close" aria-label="Close">&times;</button>
   <img src="" alt="">
 </div>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="js/main.js"></script>

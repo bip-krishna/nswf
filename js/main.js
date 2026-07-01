@@ -6,17 +6,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Mobile menu
   if (toggle && nav) {
+    const navLinks = nav.querySelectorAll('a');
+    const animateNavLinks = (open) => {
+      if (!window.gsap || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      if (open) {
+        gsap.fromTo(navLinks,
+          { y: '2.4rem', opacity: 0 },
+          { y: '0rem', opacity: 1, duration: 0.5, stagger: 0.04, ease: 'power3.out', clearProps: 'transform,opacity' }
+        );
+      } else {
+        gsap.killTweensOf(navLinks);
+        gsap.set(navLinks, { clearProps: 'transform,opacity' });
+      }
+    };
     toggle.addEventListener('click', () => {
       const isOpen = nav.classList.toggle('open');
       toggle.classList.toggle('open', isOpen);
       toggle.setAttribute('aria-expanded', String(isOpen));
       document.body.classList.toggle('menu-open', isOpen);
+      animateNavLinks(isOpen);
     });
-    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.forEach(a => a.addEventListener('click', () => {
       nav.classList.remove('open');
       toggle.classList.remove('open');
       toggle.setAttribute('aria-expanded', 'false');
       document.body.classList.remove('menu-open');
+      animateNavLinks(false);
     }));
   }
 

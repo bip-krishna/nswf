@@ -17,20 +17,30 @@
 <body data-page="index.html">
 
 <header class="header" role="banner">
-  <a href="index.html" class="header__logo" aria-label="NSWF Home">
-    <div class="header__logo-icon" aria-hidden="true">NS</div>
-    <span>Nisarg Srishti</span>
-  </a>
-  <button class="header__menu-btn" id="menuToggle" aria-expanded="false" aria-label="Toggle menu">Menu</button>
-  <nav class="header__nav" id="mainNav" role="navigation">
-    <a href="about.html">About</a>
-    <a href="programs.html">Programs</a>
-    <a href="impact.html">Impact</a>
-    <a href="media.html">Media</a>
-    <a href="team.html">Team</a>
-    <a href="contact.html">Contact</a>
-    <a href="https://www.nisargsrishti.org/donate" class="header__donate">Donate</a>
-  </nav>
+  <div class="header__inner">
+    <a href="index.html" class="header__logo" aria-label="NSWF Home">
+      <div class="header__logo-icon" aria-hidden="true">NS</div>
+      <span>Nisarg Srishti</span>
+    </a>
+    <button class="header__menu-btn" id="menuToggle" aria-expanded="false" aria-label="Toggle menu">
+      <span></span>
+    </button>
+    <nav class="header__nav" id="mainNav" role="navigation">
+      <a href="about.html">About</a>
+      <a href="programs.html">Programs</a>
+      <a href="events.html">Events</a>
+      <a href="impact.html">Impact</a>
+      <a href="media.html">Media</a>
+      <a href="team.html">Team</a>
+      <a href="ambassadors.html">Ambassadors</a>
+      <a href="advisors.html">Advisors</a>
+      <a href="policy.html">Policies</a>
+      <a href="membership.html">Membership</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+      <a href="https://www.nisargsrishti.org/donate" class="header__donate">Donate</a>
+    </nav>
+  </div>
 </header>
 
 <main>
@@ -38,23 +48,21 @@
     <div class="hero__visual-glow" aria-hidden="true"></div>
     <div class="container">
       <div class="hero__content">
-        <div class="hero__label">&#2344;&#2367;&#2360;&#2352;&#2381;&#2327; &#2360;&#2371;&#2359;&#2381;&#2335;&#2367; &#2360;&#2306;&#2352;&#2325;&#2381;&#2359;&#2339; &mdash; Pune, India</div>
-        <h1 class="hero__title">Creating a Peaceful,<br>Healthy &amp; <span class="text-green">Noise-Free India</span></h1>
-        <p class="hero__desc">At Nisarg Srishti Welfare Foundation (NSWF), we work to create a healthier, peaceful, and environmentally responsible society. Our initiatives focus on reducing noise pollution, building community awareness, and empowering citizens to adopt sustainable habits.</p>
+        <div class="hero__badge"><span class="hero__badge-dot"></span>Pune, India</div>
+        <h1 class="hero__title">Creating a Peaceful,<br>Healthy &amp; <span class="text-sage">Noise-Free India</span></h1>
+        <p class="hero__desc">At NSWF, we work to create a healthier, peaceful, and environmentally responsible society. Our initiatives focus on reducing noise pollution, building community awareness, and empowering citizens to adopt sustainable habits.</p>
         <div class="hero__actions">
-          <a href="about.html" class="btn btn-outline">Explore our work <span aria-hidden="true">&uarr;</span></a>
-          <a href="https://www.nisargsrishti.org/donate" class="btn btn-primary magnetic">Support the mission <span aria-hidden="true">&rarr;</span></a>
-          <a href="https://youlean.co/online-loudness-meter/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Check noise in your area <span aria-hidden="true">&rarr;</span></a>
+          <a href="about.html" class="btn btn-outline">Explore our work <span class="btn-arrow" aria-hidden="true">&uarr;</span></a>
+          <a href="https://www.nisargsrishti.org/donate" class="btn btn-primary">Support the mission <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
+          <a href="https://youlean.co/online-loudness-meter/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Check noise in your area <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
       <div class="hero__visual">
-        <div class="hero__visual-img img-reveal">
-          <div class="img-reveal__overlay"></div>
-          <img src="https://static.wixstatic.com/media/9c608a_a73bafa9b3c742c09de75f67cf89a158~mv2_d_3000_2000_s_2.jpg" alt="Environmental conservation" loading="eager">
+        <div class="hero__visual-main">
+          <img src="https://static.wixstatic.com/media/9c608a_a73bafa9b3c742c09de75f67cf89a158~mv2_d_3000_2000_s_2.jpg" alt="Environmental conservation" loading="eager" style="aspect-ratio:3/2;">
         </div>
-        <div class="hero__visual-accent img-reveal">
-          <div class="img-reveal__overlay"></div>
-          <img src="https://static.wixstatic.com/media/8444ab_b808c46a6c1a478881b823d05a927d73~mv2.jpg" alt="Community workshop" loading="eager">
+        <div class="hero__visual-accent">
+          <img src="https://static.wixstatic.com/media/8444ab_b808c46a6c1a478881b823d05a927d73~mv2.jpg" alt="Noise pollution awareness" loading="eager" style="aspect-ratio:4/3;">
         </div>
       </div>
     </div>
@@ -63,38 +71,42 @@
   <section class="section reveal">
     <div class="container">
       <div class="section__header">
-        <h2 class="section__title" style="max-width:88rem;">Change starts when<br>awareness becomes action.</h2>
+        <p class="section__label">Our approach</p>
+        <h2 class="section__title" style="max-width:84rem;">Change starts when<br>awareness becomes action.</h2>
       </div>
       <div class="bento">
         <div class="bento__cell bento__cell--lg">
+          <div class="bento__img">
+            <img src="https://static.wixstatic.com/media/8444ab_b808c46a6c1a478881b823d05a927d73~mv2.jpg" alt="Noise pollution awareness workshop" loading="lazy">
+          </div>
           <div class="bento__num">01 / 05</div>
           <h3 class="bento__title">Noise Pollution<br>Awareness</h3>
           <p class="bento__desc">Conducting school workshops, community sessions, and expert talks across India educating about the harmful effects of noise on health and well-being.</p>
-          <div class="bento__meta">School &amp; community outreach</div>
+          <p class="bento__meta">School &amp; community outreach</p>
         </div>
         <div class="bento__cell">
           <div class="bento__num">02 / 05</div>
           <h3 class="bento__title">Noise<br>Monitoring</h3>
           <p class="bento__desc">Collecting on-ground decibel data during festivals, traffic hours, and public events to support research and policy advocacy.</p>
-          <div class="bento__meta">Real-time data collection</div>
+          <p class="bento__meta">Real-time data collection</p>
         </div>
         <div class="bento__cell">
           <div class="bento__num">03 / 05</div>
           <h3 class="bento__title">Behavioural<br>Change</h3>
           <p class="bento__desc">Inspiring citizens to follow responsible sound practices for a calmer, healthier environment through targeted campaigns.</p>
-          <div class="bento__meta">Public awareness campaigns</div>
+          <p class="bento__meta">Public awareness campaigns</p>
         </div>
         <div class="bento__cell">
           <div class="bento__num">04 / 05</div>
           <h3 class="bento__title">Environmental<br>Education</h3>
           <p class="bento__desc">Creating documentaries, informational videos, and training modules to build an eco-conscious and informed society.</p>
-          <div class="bento__meta">Media &amp; training</div>
+          <p class="bento__meta">Media &amp; training</p>
         </div>
         <div class="bento__cell">
           <div class="bento__num">05 / 05</div>
           <h3 class="bento__title">Through<br>Partnerships</h3>
           <p class="bento__desc">Collaborating with companies, institutions, and governments to implement impactful environmental projects at scale.</p>
-          <div class="bento__meta">Corporate &amp; institutional</div>
+          <p class="bento__meta">Corporate &amp; institutional</p>
         </div>
       </div>
     </div>
@@ -102,11 +114,11 @@
 
   <section class="section--tight reveal">
     <div class="container">
-      <div class="section__label" style="margin-bottom:2.4rem;">Noise pollution facts</div>
+      <p class="section__label" style="margin-bottom:2rem;">Noise pollution facts</p>
       <div class="marquee">
         <div class="marquee__track">
           <span class="marquee__item">dB measures sound intensity level</span>
-          <span class="marquee__item">Normal conversation &mdash; 60 dB</span>
+          <span class="marquee__item">Normal conversation — 60 dB</span>
           <span class="marquee__item">Sounds above 85 dB are harmful</span>
           <span class="marquee__item">WHO limit: 55 dB daytime</span>
           <span class="marquee__item">WHO night limit: 40 dB</span>
@@ -125,7 +137,7 @@
 
   <section class="section--tight reveal">
     <div class="container">
-      <div class="section__label" style="margin-bottom:2.4rem;">Global recognition</div>
+      <p class="section__label" style="margin-bottom:2rem;">Global recognition</p>
       <div class="marquee">
         <div class="marquee__track">
           <span class="marquee__item">Featured by BBC on <em>People Fixing the World</em></span>
@@ -139,23 +151,23 @@
 
   <section class="section reveal">
     <div class="container">
-      <div class="card-grid card-grid--2" style="border:0;">
-        <div class="card" style="border-left:1px solid var(--line);border-top:1px solid var(--line);min-height:20rem;justify-content:center;background:var(--green-dim);border-color:transparent;">
-          <p style="font-family:'Outfit',sans-serif;font-size:clamp(2rem,3.2vw,3.6rem);letter-spacing:-.05em;line-height:1.1;margin-bottom:1.6rem;">&ldquo;We are not just measuring decibels. We are measuring the quality of life for future generations.&rdquo;</p>
-          <div style="display:flex;align-items:center;gap:1.2rem;">
-            <div style="width:4rem;height:4rem;border-radius:50%;overflow:hidden;background:var(--panel);flex-shrink:0;">
-              <img src="https://static.wixstatic.com/media/6ac590_4e4e6664c1784a00821283a2041f4b80~mv2.jpg" alt="" style="width:100%;height:100%;object-fit:cover;">
+      <div class="card-grid card-grid--2" style="border:0;gap:.4rem;">
+        <div class="testimonial">
+          <blockquote>&ldquo;We are not just measuring decibels. We are measuring the quality of life for future generations.&rdquo;</blockquote>
+          <div class="testimonial__author">
+            <div class="testimonial__author-img">
+              <img src="https://static.wixstatic.com/media/6ac590_4e4e6664c1784a00821283a2041f4b80~mv2.jpg" alt="">
             </div>
             <div>
-              <div style="font-family:'Outfit',sans-serif;font-size:1.4rem;font-weight:500;">Dr. Garima Kavathekar</div>
-              <div style="font-size:1.15rem;color:var(--muted);">Founder &amp; Director, NSWF</div>
+              <div class="testimonial__author-name">Dr. Garima Kavathekar</div>
+              <div class="testimonial__author-role">Founder &amp; Director, NSWF</div>
             </div>
           </div>
         </div>
-        <div class="card" style="border-left:1px solid var(--line);border-top:1px solid var(--line);min-height:20rem;justify-content:center;">
+        <div class="card" style="min-height:20rem;justify-content:center;">
           <h3 class="card__title">Recognised globally</h3>
           <p class="card__desc">NSWF's work has been featured by BBC World Service on <em>People Fixing the World</em> and in a France 24 documentary, putting India's noise pollution crisis on the international stage.</p>
-          <a href="media.html" class="btn btn-ghost" style="margin-top:2rem;align-self:flex-start;padding:0;border:0;">View coverage <span aria-hidden="true">&rarr;</span></a>
+          <a href="media.html" class="btn btn-ghost" style="margin-top:2rem;align-self:flex-start;padding:0;border:0;">View coverage <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
         </div>
       </div>
     </div>
@@ -164,24 +176,24 @@
   <section class="section reveal" style="border-top:1px solid var(--line);">
     <div class="container">
       <div class="section__header">
-        <div class="section__label">Impact in numbers</div>
+        <p class="section__label">Impact in numbers</p>
       </div>
       <div class="stats">
         <div class="stat">
           <div class="stat__num">27+</div>
-          <div class="stat__label">School &amp; Community Sessions</div>
+          <p class="stat__label">School &amp; Community Sessions</p>
         </div>
         <div class="stat">
           <div class="stat__num">10,000+</div>
-          <div class="stat__label">Students Educated</div>
+          <p class="stat__label">Students Educated</p>
         </div>
         <div class="stat">
           <div class="stat__num">100K+</div>
-          <div class="stat__label">People Reached Virtually</div>
+          <p class="stat__label">People Reached Virtually</p>
         </div>
         <div class="stat">
           <div class="stat__num">ISO</div>
-          <div class="stat__label">14001:2015 Certified</div>
+          <p class="stat__label">14001:2015 Certified</p>
         </div>
       </div>
     </div>
@@ -194,7 +206,7 @@
       <h2 class="cta__title">Join the movement<br>for a quieter India.</h2>
       <p class="cta__desc">Volunteer, donate, or partner with us. Together, we can build a healthier, peaceful, and environmentally responsible society.</p>
     </div>
-    <a href="https://www.nisargsrishti.org/donate" class="btn btn-primary magnetic">Support our mission <span aria-hidden="true">&rarr;</span></a>
+    <a href="https://www.nisargsrishti.org/donate" class="btn btn-primary">Support our mission <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
   </div>
 </section>
 
@@ -213,9 +225,15 @@
         <ul class="footer__links">
           <li><a href="about.html">About</a></li>
           <li><a href="programs.html">Programs</a></li>
+          <li><a href="events.html">Events</a></li>
           <li><a href="impact.html">Impact</a></li>
           <li><a href="media.html">Media</a></li>
           <li><a href="team.html">Team</a></li>
+          <li><a href="ambassadors.html">Ambassadors</a></li>
+          <li><a href="advisors.html">Advisors</a></li>
+          <li><a href="policy.html">Policies</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a href="projects.html">Projects</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
